@@ -1,0 +1,67 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import HeroText from '~/components/widgets/HeroText.astro';
+import Prices from '~/components/widgets/Pricing.astro';
+import FAQs from '~/components/widgets/FAQs.astro';
+import Steps from '~/components/widgets/Steps.astro';
+import Features3 from '~/components/widgets/Features3.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+const metadata = {
+  title: 'Reptilian',
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- HeroText Widget ******************* -->
+
+  <HeroText
+    tagline="Reptilian"
+    title="The Reptilian God Morrop"
+    subtitle="Morrop is also said to have lived with humans deep inside underground in caves in the region, sharing knowledge and wisdom to all humanity.."
+  />
+
+  <!-- REESE REPORT - A Brief History of Shape-Shifting Reptilians (Related links in description)  -->
+  <div
+    class="block px-4 m-4 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] rounded-xl border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 rounded-b lg:rounded-b-none lg:rounded-r p-4 justify-between leading-normal"
+  >
+    <h2 id="history">
+      <p class="mb-4 dark:text-white text-base font-bold text-green-500">
+        REESE REPORT - A Brief History of Shape-Shifting Reptilians (Related links in description)
+      </p>
+    </h2>
+    <div class="content-center overflow-hidden bg-cover bg-no-repeat" data-te-ripple-init data-te-ripple-color="light">
+      <div class="embed-responsive embed-responsive-16by9 relative w-full overflow-hidden" style="padding-top: 56.25%">
+        <iframe
+          class="embed-responsive-item absolute bottom-0 left-0 right-0 top-0 h-full w-full rounded-xl"
+          src="https://rumble.com/embed/v2wxjb4/?pub=4"
+          allowfullscreen=""
+          data-gtm-yt-inspected-2340190_699="true"
+          id="240632615"></iframe>
+      </div>
+    </div>
+    <div class="p-6 top-0 text-center">
+      <!-- <DISCLOSURELIST /> -->
+      <!-- <Rept /> -->
+      <h5 class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">
+        <a
+          href="https://www.facebook.com/ancientjargal/posts/the-reptilian-god-morrop-a-statue-located-in-the-peruvian-city-of-chiclayo-repre/122178229730036241/ rel="
+          noopener"
+          target="_blank"
+          ><span class="text-blue-600 dark:text-white font-bold hover:text-green-900"
+            >The Reptilian God Morrop, a statue located in the Peruvian city of Chiclayo, representing a reptilian diety
+            also referred to as The Iguana Man based on the descriptions from ancient Mochica Mythology.</span
+          >
+        </a>
+      </h5>
+      <p class="mx-auto max-w-prose text-base text-justify text-black dark:text-white">
+        The Reptilian God Morrop, a statue located in the Peruvian city of Chiclayo, representing a reptilian diety also
+        referred to as The Iguana Man based on the descriptions from ancient Mochica Mythology. The Mochicas considered
+        the Iguana Man as a powerful being and a mediator between the worlds of the living and the dead. Morrop is also
+        said to have lived with humans deep inside underground in caves in the region, sharing knowledge and wisdom to
+        all humanity.
+      </p>
+    </div>
+  </div>
+  <!-- REESE REPORT - A Brief History of Shape-Shifting Reptilians (Related links in description)  -->
+</Layout>
