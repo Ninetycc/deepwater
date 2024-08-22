@@ -35,6 +35,10 @@ export const headerData = {
           href: getPermalink('/services'),
         },
         {
+          text: 'Reptilian',
+          href: getPermalink('/reptilian'),
+        },
+        {
           text: 'Pricing',
           href: getPermalink('/pricing'),
         },
